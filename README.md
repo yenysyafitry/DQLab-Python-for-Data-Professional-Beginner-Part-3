@@ -190,6 +190,13 @@ perusahaan.aktifkan_karyawan(karyawan_3)
 
 ### Encapsulation pada Python - Part 2
 
+Terdapat 2 macam access modifier dalam Python, yakni :
+<ol><li> Public access: dapat aku definisikan dengan secara langsung menuliskan nama dari atribut/ fungsi. Dalam sebuah objek, atribut/fungsi yang bersifat public access dapat diakses di luar scope sebuah class</li> 
+<li> Private access: dapat aku definisikan dengan menambahkan double underscore (__) sebelum menuliskan nama dari atribut/fungsi. Dalam sebuah objek, atribut/fungsi yang bersifat private access hanya dapat diakses di dalam scope sebuah class.</li> </ol>
+<p>Kemudian, atribut __nama, __usia, __pendapatan_tambahan, __insentif_lembur dan pendapatan bersifat private sehingga atribut ini hanya dapat diakses di dalam scope class Karyawan.
+
+Saat aku mencoba mengakses atribut-atribut ini di luar scope class Karyawan, Python akan mengembalikan error yang menyatakan bahwa class Karyawan tidak memiliki atribut tersebut.</p>
+
 ```plantuml
 #Definisikan class Karyawan
 class Karyawan: 
