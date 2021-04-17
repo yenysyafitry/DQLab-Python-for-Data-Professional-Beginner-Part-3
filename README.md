@@ -24,9 +24,8 @@ Agar dapat membuat class Karyawan dengan baik, pertama, aku akan mempelajari car
  
 
 ----
-<p align="justify"><b> Class dan Objek dalam Python - Part 3  https://academy.dqlab.id/main/livecode/161/301/1354</p>
+```plantuml <b> Class dan Objek dalam Python - Part 3  https://academy.dqlab.id/main/livecode/161/301/1354
 
-```plantuml
 #Definisikan Class Karyawan 	
 class Karyawan:		
   nama_perusahaan = 'ABC'
