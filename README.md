@@ -49,7 +49,8 @@ Agar dapat membuat class Karyawan dengan baik, pertama, aku akan mempelajari car
 
 # [Class dan Objek dalam Python - Part 3](https://academy.dqlab.id/main/livecode/161/301/1354)
 
-----```plantuml
+----
+```plantuml
 #Definisikan Class Karyawan 	
 class Karyawan:		
   nama_perusahaan = 'ABC'
@@ -64,15 +65,17 @@ aksara.__class__.nama_perusahaan = 'DEF'
 #Cetak nama_perusahaan objek aksara dan senja
 print(aksara.__class__.nama_perusahaan)
 print(senja.__class__.nama_perusahaan)
-```----
+```
+----
 
 
 
-# # [Class dan Objek dalam Python - Part 4](https://academy.dqlab.id/main/livecode/161/301/1355)
-
-# In[2]:
+# [Class dan Objek dalam Python - Part 4](https://academy.dqlab.id/main/livecode/161/301/1355)
 
 
+
+----
+```plantuml
 # Definisikan class Karyawan
 class Karyawan:
     nama_perusahaan = 'ABC'
@@ -87,13 +90,15 @@ senja = Karyawan('Senja', 28, 12500000)
 print(aksara.nama + ', Usia: ' + str(aksara.usia) + ', Pendapatan ' + str(aksara.pendapatan))
 # Cetak objek bernama senja
 print(senja.nama + ', Usia: ' + str(senja.usia) + ', Pendapatan ' + str(senja.pendapatan))
-
+```
+----
 
 # # [Behavior pada Class](https://academy.dqlab.id/main/livecode/161/301/1358)
 
 # In[3]:
 
-
+----
+```plantuml
 # Definisikan class Karyawan berikut dengan attribut dan fungsinya
 class Karyawan:
     nama_perusahaan = 'ABC'
@@ -119,7 +124,8 @@ senja.tambahan_proyek(2500000)
 # Cetak pendapatan total Aksara dan Senja
 print('Pendapatan Total Aksara: ' + str(aksara.total_pendapatan()))
 print('Pendapatan Total Senja: ' +str(senja.total_pendapatan()))
-
+```
+----
 
 # # [Tugas Praktek](https://academy.dqlab.id/main/livecode/161/301/1359)
 
