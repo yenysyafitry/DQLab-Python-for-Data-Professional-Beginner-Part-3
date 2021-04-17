@@ -511,13 +511,11 @@ class DokumenterTeknis(TenagaLepas):
 
 ### Tugas Praktek
 
- Nama     Usia     Pendapatan     
- Budi      ?              ?           
- Didi     25              ?          
- Hadi      ?        8000000            
+| Attempt | #1 | #2 |
+| :---: | :---: | :---: |
+| Seconds | 301 | 283 |           
 
 | Nama  | Usia | Pendapatan|
- ----     ----     ----
 | Budi  |  ?   |   ? 	   |
 | Didi  |  25  |   ?	   |
 | Hadi  |  ?   | 8000000   |
