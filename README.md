@@ -70,8 +70,19 @@ print(aksara.__class__.nama_perusahaan)
 print(senja.__class__.nama_perusahaan)
 ```
 
-NOT TO DO.
-{: .alert .alert-danger}
+TO DO.
+{: .alert .alert-success}
+
+<div class="panel panel-success">
+**Do's**
+{: .panel-heading}
+<div class="panel-body">
+
+THINGS TO DO
+
+</div>
+</div>
+
 
 ```diff
 # Definisikan class Karyawan 	
