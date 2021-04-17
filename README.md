@@ -628,3 +628,5 @@ print(perusahaan.total_pengeluaran())
 </br>
 
 ----
+
+&copy; Yenni Syafitri
