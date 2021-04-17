@@ -459,6 +459,7 @@ class TenagaLepas(Karyawan):
 
 </br>
 <a href="https://academy.dqlab.id/main/livecode/161/304/1375">Link materi : academy.dqlab.id/main/livecode/161/304/1375</a>
+
 ----
 
 ### Tugas Praktek
@@ -520,9 +521,9 @@ class DokumenterTeknis(TenagaLepas):
 
 
 Aku di minta untuk mengisi tabel, dengan detail berikut:
-*Budi berusia = 21 dan pendapatan = 5000000
-*Didi berusia 25 dan pendapatan = 5000000
-*Hadi berusia 21 dan pendapatan = 8000000
+</br>Budi berusia = 21 dan pendapatan = 5000000
+</br>Didi berusia 25 dan pendapatan = 5000000
+</br>Hadi berusia 21 dan pendapatan = 8000000
 ```plantuml
 class Karyawan: 
     nama_perusahaan = 'ABC' 
