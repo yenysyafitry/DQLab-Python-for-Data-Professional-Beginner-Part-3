@@ -9,7 +9,7 @@ Pemrograman Berbasis Objek (Object Oriented Programming - OOP) merupakan salah s
 <a class="text-gray-dark no-underline" href="#url"></br>
 <a class="muted-link" href="#url">muted-link</a></br>
  ```json
-23
+merepresentasikan seorang karyawan
  
 ```
 
