@@ -1,4 +1,4 @@
-https://github.com/yenysyafitry/DQLab-Python-for-Data-Professional-Beginner-Part-3/blob/main/Python%20for%20Data%20Professional%20Beginner%20-%20Part%203.ipynb
+https://github.com/yenysyafitry/DQLab-Python-for-Data-Professional-Beginner-Part-3/blob/main/Python%20for%20Data%20Professional%20Beginner%20-%20Part%203.ipynb </br>
 <a class="link-gray" href="#url">link-gray</a>
 
 <b>Apa itu Object Oriented Programming?</b></br>
