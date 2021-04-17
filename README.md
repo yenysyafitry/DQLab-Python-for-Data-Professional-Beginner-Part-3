@@ -1,16 +1,6 @@
 https://github.com/yenysyafitry/DQLab-Python-for-Data-Professional-Beginner-Part-3/blob/main/Python%20for%20Data%20Professional%20Beginner%20-%20Part%203.ipynb
-<style>
-body {
-	color: red;
-}
-h1 {
-	color: #00FF00;
-}
-p {
-	color: rgb(0,0,255)
-}
-</style>
-<p> <b>Apa itu Object Oriented Programming?</b></p></br>
+
+ <tspan fill="red"><b>Apa itu Object Oriented Programming?</b></tspan></br>
 Pemrograman Berbasis Objek (Object Oriented Programming - OOP) merupakan salah satu paradigma pemrograman yang cukup populer di antara paradigma-paradigma lainnya.
 </br>
 
