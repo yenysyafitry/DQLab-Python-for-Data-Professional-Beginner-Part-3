@@ -26,8 +26,9 @@ Agar dapat membuat class Karyawan dengan baik, pertama, aku akan mempelajari car
 <li>Instance Attribute adalah properti/atribut yang nilainya berbeda-beda untuk setiap objek dari sebuah class.</li></ol>
 
 # [Class dan Objek dalam Python - Part 3](https://academy.dqlab.id/main/livecode/161/301/1354)
-`` #Definisikan class Karyawan 
-+class Karyawan:+
+```diff
+@@#Definisikan class Karyawan @@
+@@class Karyawan:@@
   nama_perusahaan = 'ABC'
 # Inisiasi object yang dinyatakan dalam variabel aksara dan senja
 aksara = Karyawan()
@@ -40,7 +41,7 @@ aksara.__class__.nama_perusahaan = 'DEF'
 # Cetak nama_perusahaan objek aksara dan senja
 print(aksara.__class__.nama_perusahaan)
 print(senja.__class__.nama_perusahaan)
-``
+```
 
 # # [Class dan Objek dalam Python - Part 4](https://academy.dqlab.id/main/livecode/161/301/1355)
 
