@@ -1,11 +1,6 @@
 https://github.com/yenysyafitry/DQLab-Python-for-Data-Professional-Beginner-Part-3/blob/main/Python%20for%20Data%20Professional%20Beginner%20-%20Part%203.ipynb
 
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
+
 
 
 
@@ -34,76 +29,79 @@ Agar dapat membuat class Karyawan dengan baik, pertama, aku akan mempelajari car
 <li>Class Attribute adalah properti/atribut yang bernilai sama untuk oleh seluruh objek dari sebuah</li>
 <li>Instance Attribute adalah properti/atribut yang nilainya berbeda-beda untuk setiap objek dari sebuah class.</li></ol>
 
-
 # # [Class dan Objek dalam Python - Part 3](https://academy.dqlab.id/main/livecode/161/301/1354)
 
-# Definisikan class Karyawan  </br>
-class Karyawan:</br>
-    nama_perusahaan = 'ABC'</br>
-#Inisiasi object yang dinyatakan dalam variabel aksara dan senja</br>
-aksara = Karyawan()</br>
-senja = Karyawan()</br>
-#Cetak nama perusahaan melalui penggunaan keyword __class__</br>
-#pada class attribute nama_perusahaan</br>
-print(aksara.__class__.nama_perusahaan)</br>
-#Ubah nama_perusahaan menjadi 'DEF'</br>
-aksara.__class__.nama_perusahaan = 'DEF'</br>
-#Cetak nama_perusahaan objek aksara dan senja</br>
-print(aksara.__class__.nama_perusahaan)</br>
-print(senja.__class__.nama_perusahaan)</br>
+# In[1]:
 
 
-# # [Class dan Objek dalam Python - Part 4](https://academy.dqlab.id/main/livecode/161/301/1355)</br>
+```diff
+# Definisikan class Karyawan
+class Karyawan:
+    nama_perusahaan = 'ABC'
+# Inisiasi object yang dinyatakan dalam variabel aksara dan senja
+aksara = Karyawan()
+senja = Karyawan()
+# Cetak nama perusahaan melalui penggunaan keyword __class__
+# pada class attribute nama_perusahaan
+print(aksara.__class__.nama_perusahaan)
+# Ubah nama_perusahaan menjadi 'DEF'
+aksara.__class__.nama_perusahaan = 'DEF'
+# Cetak nama_perusahaan objek aksara dan senja
+print(aksara.__class__.nama_perusahaan)
+print(senja.__class__.nama_perusahaan)
+
+
+# # [Class dan Objek dalam Python - Part 4](https://academy.dqlab.id/main/livecode/161/301/1355)
 
 # In[2]:
 
 
-# Definisikan class Karyawan</br>
-class Karyawan:</br>
-    nama_perusahaan = 'ABC'</br>
-    def __init__(self, nama, usia, pendapatan):</br>
-        self.nama = nama</br>
-        self.usia = usia</br>
-        self.pendapatan = pendapatan</br>
-# Buat object bernama aksara dan senja</br>
-aksara = Karyawan('Aksara', 25, 8500000)</br>
-senja = Karyawan('Senja', 28, 12500000)</br>
-# Cetak objek bernama aksara</br>
-print(aksara.nama + ', Usia: ' + str(aksara.usia) + ', Pendapatan ' + str(aksara.pendapatan))</br>
-# Cetak objek bernama senja</br>
-print(senja.nama + ', Usia: ' + str(senja.usia) + ', Pendapatan ' + str(senja.pendapatan))</br>
+# Definisikan class Karyawan
+class Karyawan:
+    nama_perusahaan = 'ABC'
+    def __init__(self, nama, usia, pendapatan):
+        self.nama = nama
+        self.usia = usia
+        self.pendapatan = pendapatan
+# Buat object bernama aksara dan senja
+aksara = Karyawan('Aksara', 25, 8500000)
+senja = Karyawan('Senja', 28, 12500000)
+# Cetak objek bernama aksara
+print(aksara.nama + ', Usia: ' + str(aksara.usia) + ', Pendapatan ' + str(aksara.pendapatan))
+# Cetak objek bernama senja
+print(senja.nama + ', Usia: ' + str(senja.usia) + ', Pendapatan ' + str(senja.pendapatan))
 
 
-# # [Behavior pada Class](https://academy.dqlab.id/main/livecode/161/301/1358)</br>
+# # [Behavior pada Class](https://academy.dqlab.id/main/livecode/161/301/1358)
 
 # In[3]:
 
 
-# Definisikan class Karyawan berikut dengan attribut dan fungsinya</br>
-class Karyawan:</br>
-    nama_perusahaan = 'ABC'</br>
-    insentif_lembur = 250000</br>
-    def __init__(self, nama, usia, pendapatan):</br>
-        self.nama = nama</br>
-        self.usia = usia</br>
-        self.pendapatan = pendapatan</br>
-        self.pendapatan_tambahan = 0</br>
-    def lembur(self):</br>
-        self.pendapatan_tambahan += self.insentif_lembur</br>
-    def tambahan_proyek(self, insentif_proyek):</br>
-    	self.pendapatan_tambahan += insentif_proyek</br>
-    def total_pendapatan(self):</br>
-    	return self.pendapatan + self.pendapatan_tambahan</br>
-# Buat object dari karwayan bernama Aksara dan Senja</br>
-aksara = Karyawan('Aksara', 25, 8500000)</br>
-senja = Karyawan('Senja', 28, 12500000)</br>
-# Aksara melaksanakan lembur</br>
-aksara.lembur()</br>
-# Senja memiliki proyek tambahan</br>
-senja.tambahan_proyek(2500000)</br>
-# Cetak pendapatan total Aksara dan Senja</br>
-print('Pendapatan Total Aksara: ' + str(aksara.total_pendapatan()))</br>
-print('Pendapatan Total Senja: ' +str(senja.total_pendapatan()))</br>
+# Definisikan class Karyawan berikut dengan attribut dan fungsinya
+class Karyawan:
+    nama_perusahaan = 'ABC'
+    insentif_lembur = 250000
+    def __init__(self, nama, usia, pendapatan):
+        self.nama = nama
+        self.usia = usia
+        self.pendapatan = pendapatan
+        self.pendapatan_tambahan = 0
+    def lembur(self):
+        self.pendapatan_tambahan += self.insentif_lembur
+    def tambahan_proyek(self, insentif_proyek):
+    	self.pendapatan_tambahan += insentif_proyek
+    def total_pendapatan(self):
+    	return self.pendapatan + self.pendapatan_tambahan
+# Buat object dari karwayan bernama Aksara dan Senja
+aksara = Karyawan('Aksara', 25, 8500000)
+senja = Karyawan('Senja', 28, 12500000)
+# Aksara melaksanakan lembur
+aksara.lembur()
+# Senja memiliki proyek tambahan
+senja.tambahan_proyek(2500000)
+# Cetak pendapatan total Aksara dan Senja
+print('Pendapatan Total Aksara: ' + str(aksara.total_pendapatan()))
+print('Pendapatan Total Senja: ' +str(senja.total_pendapatan()))
 
 
 # # [Tugas Praktek](https://academy.dqlab.id/main/livecode/161/301/1359)
@@ -567,5 +565,3 @@ perusahaan.aktifkan_karyawan(febi)
 
 # Cetak keseluruhan total pengeluaran perusahaan
 print(perusahaan.total_pengeluaran())
-
- 
