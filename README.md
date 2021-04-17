@@ -30,9 +30,10 @@ Agar dapat membuat class Karyawan dengan baik, pertama, aku akan mempelajari car
 <li>Class Attribute adalah properti/atribut yang bernilai sama untuk oleh seluruh objek dari sebuah</li>
 <li>Instance Attribute adalah properti/atribut yang nilainya berbeda-beda untuk setiap objek dari sebuah class.</li></ol>
 
-# [Class dan Objek dalam Python - Part 3](https://academy.dqlab.id/main/livecode/161/301/1354)
 
 ----
+# [Class dan Objek dalam Python - Part 3](https://academy.dqlab.id/main/livecode/161/301/1354)
+
 ```plantuml
 #Definisikan Class Karyawan 	
 class Karyawan:		
@@ -62,7 +63,7 @@ print(senja.__class__.nama_perusahaan)
 # [Class dan Objek dalam Python - Part 4](https://academy.dqlab.id/main/livecode/161/301/1355)
 
 
-----
+
 ```plantuml
 #Definisikan class Karyawan
 class Karyawan:
