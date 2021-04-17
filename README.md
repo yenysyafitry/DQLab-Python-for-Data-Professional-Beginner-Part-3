@@ -6,6 +6,12 @@
 *Sed ut perspiciatis unde omnis iste natus...*
 </details>
 </details>
+```
+def hello
+   puts "Hello world!"
+end
+```
+
 
 
 
