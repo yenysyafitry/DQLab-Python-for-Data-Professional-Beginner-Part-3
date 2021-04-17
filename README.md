@@ -510,10 +510,11 @@ class DokumenterTeknis(TenagaLepas):
 ----
 
 ### Tugas Praktek
-|Nama|Usia|Pendapatan|
-|Budi|?|?	|
-|Didi|25|?	|
-|Hadi|?|8000000	|
+| Nama  | Usia | Pendapatan|
+ ----     ----     ----
+| Budi  |  ?   |   ? 	   |
+| Didi  |  25  |   ?	   |
+| Hadi  |  ?   | 8000000   |
 
 Aku di minta untuk mengisi tabel, dengan detail berikut:
 Budi berusia = 21 dan pendapatan = 5000000
