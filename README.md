@@ -1,9 +1,5 @@
 https://github.com/yenysyafitry/DQLab-Python-for-Data-Professional-Beginner-Part-3/blob/main/Python%20for%20Data%20Professional%20Beginner%20-%20Part%203.ipynb
 
-
-
-
-
 <b>Apa itu Object Oriented Programming?</b></br>
 Pemrograman Berbasis Objek (Object Oriented Programming - OOP) merupakan salah satu paradigma pemrograman yang cukup populer di antara paradigma-paradigma lainnya.
 </br>
@@ -29,7 +25,7 @@ Agar dapat membuat class Karyawan dengan baik, pertama, aku akan mempelajari car
 <li>Class Attribute adalah properti/atribut yang bernilai sama untuk oleh seluruh objek dari sebuah</li>
 <li>Instance Attribute adalah properti/atribut yang nilainya berbeda-beda untuk setiap objek dari sebuah class.</li></ol>
 
-# # [Class dan Objek dalam Python - Part 3](https://academy.dqlab.id/main/livecode/161/301/1354)
+# [Class dan Objek dalam Python - Part 3](https://academy.dqlab.id/main/livecode/161/301/1354)
 
 # In[1]:
 
