@@ -520,9 +520,9 @@ class DokumenterTeknis(TenagaLepas):
 
 
 Aku di minta untuk mengisi tabel, dengan detail berikut:
-Budi berusia = 21 dan pendapatan = 5000000
-Didi berusia 25 dan pendapatan = 5000000
-Hadi berusia 21 dan pendapatan = 8000000
+*Budi berusia = 21 dan pendapatan = 5000000
+*Didi berusia 25 dan pendapatan = 5000000
+*Hadi berusia 21 dan pendapatan = 8000000
 ```plantuml
 class Karyawan: 
     nama_perusahaan = 'ABC' 
