@@ -1,12 +1,4 @@
-----
 
-## On this page
-{:.no_toc}
-
-- TOC
-{:toc}
-
-----
 
 
 
@@ -57,7 +49,7 @@ Agar dapat membuat class Karyawan dengan baik, pertama, aku akan mempelajari car
 
 # [Class dan Objek dalam Python - Part 3](https://academy.dqlab.id/main/livecode/161/301/1354)
 
-
+----
 ```plantuml
 #Definisikan Class Karyawan 	
 class Karyawan:		
@@ -74,6 +66,7 @@ aksara.__class__.nama_perusahaan = 'DEF'
 print(aksara.__class__.nama_perusahaan)
 print(senja.__class__.nama_perusahaan)
 ```
+----
 
 ```ruby
 # Definisikan class Karyawan 	
