@@ -27,10 +27,10 @@ Agar dapat membuat class Karyawan dengan baik, pertama, aku akan mempelajari car
 
 # [Class dan Objek dalam Python - Part 3](https://academy.dqlab.id/main/livecode/161/301/1354)
 
-! [# f03c15] (https://placehold.it/15/f03c15/000000?text=+) `# f03c15 merah`
+
 ```diff
-@@#Definisikan class Karyawan @@
-@@class Karyawan:@@
+#Definisikan class Karyawan 
+class Karyawan:
   nama_perusahaan = 'ABC'
 # Inisiasi object yang dinyatakan dalam variabel aksara dan senja
 aksara = Karyawan()
