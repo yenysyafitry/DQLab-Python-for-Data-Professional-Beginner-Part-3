@@ -48,7 +48,7 @@ print(senja.__class__.nama_perusahaan)
 *	
 </details>
 </br>
-[This is a link](src/Test.java)
+<a href="src/Test.java">This is a link</a>.
 [https://academy.dqlab.id/main/livecode/161/301/1354]
 ----
 
