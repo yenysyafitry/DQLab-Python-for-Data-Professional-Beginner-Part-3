@@ -10,7 +10,7 @@ p {
 	color: rgb(0,0,255)
 }
 </style>
-<p> <b>Apa itu Object Oriented Programming?</b></br></p>
+<p> <b>Apa itu Object Oriented Programming?</b></p></br>
 Pemrograman Berbasis Objek (Object Oriented Programming - OOP) merupakan salah satu paradigma pemrograman yang cukup populer di antara paradigma-paradigma lainnya.
 </br>
 
