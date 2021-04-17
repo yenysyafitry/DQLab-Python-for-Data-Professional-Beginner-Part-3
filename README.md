@@ -19,8 +19,7 @@ Dalam bahasa pemrograman Python, terdapat 3 konsep utama OO yaitu.
 <li>Polymorphism: Konsep untuk menggunakan fungsi-fungsi dengan nama/ tujuan yang sama dengan cara yang berbeda.</li></ol>
 
 Agar dapat membuat class Karyawan dengan baik, pertama, aku akan mempelajari cara merepresentasikan atribut/properti dalam sebuah class.  Dalam sebuah class, aku dapat mendefinisikan dua jenis atribut yaitu.
-<ol align="justify">
-<li>Class Attribute adalah properti/atribut yang bernilai sama untuk oleh seluruh objek dari sebuah</li>
+<ol align="justify"><li>Class Attribute adalah properti/atribut yang bernilai sama untuk oleh seluruh objek dari sebuah</li>
 <li>Instance Attribute adalah properti/atribut yang nilainya berbeda-beda untuk setiap objek dari sebuah class.</li></ol>
  
 
