@@ -82,7 +82,6 @@ print(senja.nama + ', Usia: ' + str(senja.usia) + ', Pendapatan ' + str(senja.pe
 
 ### Behavior pada Class 
 
-----
 ```plantuml
 #Definisikan class Karyawan berikut dengan attribut dan fungsinya
 class Karyawan:
@@ -166,7 +165,7 @@ class Perusahaan:
 
 ### Tugas Praktek
 
-----
+
 ```plantuml
 #Definisikan perusahaan
 perusahaan = Perusahaan('ABC', 'Jl. Jendral Sudirman, Blok 11', '(021) 95205XX')
@@ -189,7 +188,7 @@ perusahaan.aktifkan_karyawan(karyawan_3)
 ----
 
 ### Encapsulation pada Python - Part 2
-----
+
 ```plantuml
 #Definisikan class Karyawan
 class Karyawan: 
@@ -224,7 +223,7 @@ print(aksara.nama)
 
 ### Inheritance pada Python – Part 1
 
-----
+
 ```plantuml
 #Definisikan class Karyawan (sebagai base class)
 class Karyawan: 
@@ -273,7 +272,7 @@ print(senja.total_pendapatan())
 
 ### Inheritance pada Python – Part 2
 
-----
+
 ```plantuml
 #Definisikan class Karyawan (sebagai base class)
 class Karyawan: 
@@ -317,12 +316,12 @@ print(senja.total_pendapatan())
 *	
 </details>
 </br>
-<a href="https://academy.dqlab.id/main/livecode/161/301/1370">Link materi : academy.dqlab.id/main/livecode/161/301/1370</a>.
+<a href="https://academy.dqlab.id/main/livecode/161/301/1370">Link materi : academy.dqlab.id/main/livecode/161/301/1370</a>
 ----
 
 ### Polymorphism pada Python - Part 1
 
-----
+
 ```plantuml
 #Definisikan class Karyawan (sebagai base class)
 class Karyawan: 
@@ -365,7 +364,7 @@ print(aksara.total_pendapatan())
 ----
 
 ### Polymorphism pada Python - Part 2
-----
+
 ```plantuml
 #Definisikan class Karyawan (sebagai base class)
 class Karyawan: 
@@ -404,11 +403,11 @@ print(aksara.total_pendapatan())
 *	
 </details>
 </br>
-<a href="https://academy.dqlab.id/main/livecode/161/304/1374">Link materi : academy.dqlab.id/main/livecode/161/304/1374</a>.
+<a href="https://academy.dqlab.id/main/livecode/161/304/1374">Link materi : academy.dqlab.id/main/livecode/161/304/1374</a>
 ----
 
 ### Tugas Praktek
-----
+
 ```plantuml
 #Definisikan class Karyawan
 class Karyawan:
@@ -437,11 +436,11 @@ class TenagaLepas(Karyawan):
 *	
 </details>
 </br>
-<a href="https://academy.dqlab.id/main/livecode/161/304/1375">Link materi : academy.dqlab.id/main/livecode/161/304/1375</a>.
+<a href="https://academy.dqlab.id/main/livecode/161/304/1375">Link materi : academy.dqlab.id/main/livecode/161/304/1375</a>
 ----
 
 ### Tugas Praktek
-----
+
 ```plantuml
 #Definisikan class Karyawan sebagai parent class
 class Karyawan:
@@ -492,7 +491,7 @@ class DokumenterTeknis(TenagaLepas):
 ----
 
 ### Tugas Praktek
-----
+
 ```plantuml
 class Karyawan: 
     nama_perusahaan = 'ABC' 
@@ -532,11 +531,11 @@ print(karyawan_baru3.total_pendapatan())
 *	
 </details>
 </br>
-<a href="https://academy.dqlab.id/main/livecode/161/304/1378">Link materi : academy.dqlab.id/main/livecode/161/304/1378</a>.
+<a href="https://academy.dqlab.id/main/livecode/161/304/1378">Link materi : academy.dqlab.id/main/livecode/161/304/1378</a>
 ----
 
 ### Studi Kasus dari Senja
-----
+
 ```plantuml
 #Definisikan class Karyawan sebagai parent class
 class Karyawan:
@@ -634,7 +633,7 @@ print(perusahaan.total_pengeluaran())
 *	
 </details>
 </br>
-<a href="https://academy.dqlab.id/main/livecode/161/305/1380">Link materi : academy.dqlab.id/main/livecode/161/305/1380</a>.
+<a href="https://academy.dqlab.id/main/livecode/161/305/1380">Link materi : academy.dqlab.id/main/livecode/161/305/1380</a>
 ----
 
 &copy; Yenni Syafitri
