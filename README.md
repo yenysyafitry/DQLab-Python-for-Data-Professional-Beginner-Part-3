@@ -1,3 +1,14 @@
+<details>
+<summary markdown="span">First level collapsible item</summary>
+**Lorem ipsum dolor sit amet...**
+<details>
+<summary markdown="span">Second level collapsible item</summary>
+*Sed ut perspiciatis unde omnis iste natus...*
+</details>
+</details>
+
+
+
 https://github.com/yenysyafitry/DQLab-Python-for-Data-Professional-Beginner-Part-3/blob/main/Python%20for%20Data%20Professional%20Beginner%20-%20Part%203.ipynb </br></br>
 
 
