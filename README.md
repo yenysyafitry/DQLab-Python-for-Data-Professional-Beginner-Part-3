@@ -634,6 +634,7 @@ print(perusahaan.total_pengeluaran())
 </details>
 </br>
 <a href="https://academy.dqlab.id/main/livecode/161/305/1380">Link materi : academy.dqlab.id/main/livecode/161/305/1380</a>
+
 ----
 
 &copy; Yenni Syafitri
