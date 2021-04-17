@@ -52,8 +52,8 @@ chickwts %>%
                 conditions = c('> 270', '> 300', '> 60', '== "horsebean"'),
                 variable = list('avg_weight', 'avg_weight', 'sd_weight', 'feed'),
                 num_digits = 3) %>%
-  kn `
-
+  knitr::kable(format = 'markdown')
+```
 
 
 ```diff
