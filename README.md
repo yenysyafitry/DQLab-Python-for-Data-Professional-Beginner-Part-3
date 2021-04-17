@@ -239,6 +239,9 @@ AttributeError: type object 'Karyawan' has no attribute 'Karyawan'
 
 ### Inheritance pada Python – Part 1
 
+Inheritance adalah salah satu mekanisme di konsep OO yang mengizinkan aku untuk mendefinisikan sebuah class baru berdasarkan class yang sebelumnya telah dideklarasikan.
+
+Melalui konsep inheritance, sebuah class baru dapat memiliki atribut dan fungsi pada class yang sebelumnya telah didefinisikan. Pada konsep inheritance, atribut/fungsi yang akan diwariskan hanyalah atribut/fungsi dengan access modifier public, atribut/fungsi dengan access modifier private tidak akan diturunkan.
 
 ```plantuml
 #Definisikan class Karyawan (sebagai base class)
@@ -288,7 +291,7 @@ print(senja.total_pendapatan())
 ----
 
 ### Inheritance pada Python – Part 2
-
+child class mewarisi fungsi/atribut dari parent class dengan menggunakan fungsi super(). Melalui konsep inheritance, child class dapat memodifikasi atribut/ fungsi yang diwarisi oleh sebuah parent class dengan mendefinisikan ulang atribut/ fungsi menggunakan nama yang sama. 
 
 ```plantuml
 #Definisikan class Karyawan (sebagai base class)
@@ -339,7 +342,11 @@ print(senja.total_pendapatan())
 ----
 
 ### Polymorphism pada Python - Part 1
+Selain dapat mendefinisikan ulang nilai dari atribut yang diwarisi oleh parent class seperti pada contoh di atas, juga dapat mendefinisikan ulang fungsi yang telah diwarisi oleh parent class.
 
+Saat mendefinisikan kembali fungsi yang telah diwarisi oleh parent class, secara tidak langsung aku telah menerapkan salah satu mekanisme yang secara khusus pada paradigma OO disebut dengan istilah polymorphism.
+Melakukan pemanggilan konstruktur class Karyawan, menerapkan polymorphism dengan mendefinisikan kembali fungsi lembur() pada AnalisData, dan menambahkan 10% atau 0,1 tambahan pendapatan pada class AnalisData.
+Fungsi lembur() pada objek aksara sebagai bagian dari class AnalisData akan menambahkan total_pendapatan milik objek sebesar 850000 (10% dari pendapatannya) mengikuti definisi dari fungsi lembur() pada class AnalisData akan menghasilkan output: 9350000.
 
 ```plantuml
 #Definisikan class Karyawan (sebagai base class)
@@ -384,7 +391,7 @@ print(aksara.total_pendapatan())
 ----
 
 ### Polymorphism pada Python - Part 2
-
+Pada konsep inheritance, melalui fungsi super(), selain dapat mengakses constructor milik parent class, child class juga dapat mengakses atribut/fungsi yang dimiliki oleh parent class akan menghasilkan output: 9175000
 ```plantuml
 #Definisikan class Karyawan (sebagai base class)
 class Karyawan: 
@@ -503,7 +510,15 @@ class DokumenterTeknis(TenagaLepas):
 ----
 
 ### Tugas Praktek
+|	Nama	|	Usia	|	Pendapatan	|
+|	Budi	|	?	|	?		|
+|	Didi	|	25	|	?		|
+|	Hadi	|	?	|	8000000		|
 
+Aku di minta untuk mengisi tabel, dengan detail berikut:
+Budi berusia = 21 dan pendapatan = 5000000
+Didi berusia 25 dan pendapatan = 5000000
+Hadi berusia 21 dan pendapatan = 8000000
 ```plantuml
 class Karyawan: 
     nama_perusahaan = 'ABC' 
