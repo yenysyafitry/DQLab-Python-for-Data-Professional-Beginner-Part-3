@@ -70,7 +70,8 @@ print(aksara.__class__.nama_perusahaan)
 print(senja.__class__.nama_perusahaan)
 ```
 
-
+NOT TO DO.
+{: .alert .alert-danger}
 
 ```diff
 # Definisikan class Karyawan 	
