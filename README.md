@@ -42,7 +42,6 @@ Agar dapat membuat class Karyawan dengan baik, pertama, aku akan mempelajari car
 ```plantuml
 
 skinparam defaultTextAlignment center
-
 FA_NEWSPAPER_O(news,good news!,node) #White {
 FA5_GITLAB(gitlab,GitLab.com,node) #White
 FA5_JAVA(java,PlantUML,node) #White
