@@ -59,9 +59,7 @@ print(senja.__class__.nama_perusahaan)
 ----
 
 
-
 # [Class dan Objek dalam Python - Part 4](https://academy.dqlab.id/main/livecode/161/301/1355)
-
 
 
 ----
@@ -85,12 +83,13 @@ print(senja.nama + ', Usia: ' + str(senja.usia) + ', Pendapatan ' + str(senja.pe
 <summary markdown="span">Output :</summary>
 *	
 </details>
+</br>
 
 ----
 
+
 # [Behavior pada Class](https://academy.dqlab.id/main/livecode/161/301/1358)
 
-# In[3]:
 
 ----
 ```plantuml
@@ -120,6 +119,12 @@ senja.tambahan_proyek(2500000)
 print('Pendapatan Total Aksara: ' + str(aksara.total_pendapatan()))
 print('Pendapatan Total Senja: ' +str(senja.total_pendapatan()))
 ```
+<details>
+<summary markdown="span">Output :</summary>
+*	
+</details>
+</br>
+
 ----
 
 
@@ -158,6 +163,12 @@ class Perusahaan:
         if karyawan_nonaktif is not None: 
             self.list_karyawan.remove(karyawan_nonaktif)
 ```
+<details>
+<summary markdown="span">Output :</summary>
+*	
+</details>
+</br>
+
 ----
 
 # [Tugas Praktek](https://academy.dqlab.id/main/livecode/161/301/1360)
@@ -202,6 +213,12 @@ print(aksara.__class__.Karyawan)
 #Akan menimbulkan error ketika di run
 print(aksara.nama)
 ```
+<details>
+<summary markdown="span">Output :</summary>
+*	
+</details>
+</br>
+
 ----
 
 # [Inheritance pada Python – Part 1](https://academy.dqlab.id/main/livecode/161/302/1365)
@@ -287,6 +304,12 @@ senja = IlmuwanData('Senja', 28, 13000000)
 senja.lembur()
 print(senja.total_pendapatan())
 ```
+<details>
+<summary markdown="span">Output :</summary>
+*	
+</details>
+</br>
+
 ----
 
 # [Polymorphism pada Python - Part 1](https://academy.dqlab.id/main/livecode/161/304/1373)
@@ -317,14 +340,20 @@ class AnalisData(Karyawan):
     #menerapkan polymorphism dengan mendefinisikan kembali fungsi 
     #lembur() pada class AnalisData 
     def lembur(self):
-        # pendapatan tambahan pada class AnalisData sebesar
-        # 10 % dari pendapatannya.
+        #pendapatan tambahan pada class AnalisData sebesar
+        #10 % dari pendapatannya.
         self.pendapatan_tambahan += int(self.pendapatan * 0.1)
 #Buat objek karyawan yang bekerja sebagai AnalisData
 aksara = AnalisData('Aksara', 25, 8500000)
 aksara.lembur()
 print(aksara.total_pendapatan())
 ```
+<details>
+<summary markdown="span">Output :</summary>
+*	
+</details>
+</br>
+
 ----
 
 # [Polymorphism pada Python - Part 2](https://academy.dqlab.id/main/livecode/161/304/1374)
@@ -362,6 +391,12 @@ aksara = AnalisData('Aksara', 25, 8500000)
 aksara.lembur()
 print(aksara.total_pendapatan())
 ```
+<details>
+<summary markdown="span">Output :</summary>
+*	
+</details>
+</br>
+
 ----
 
 # [Tugas Praktek](https://academy.dqlab.id/main/livecode/161/304/1375)
@@ -389,6 +424,12 @@ class TenagaLepas(Karyawan):
     def tambahan_proyek(self, nilai_proyek):
         self.pendapatan_tambahan += nilai_proyek * 0.01
 ```
+<details>
+<summary markdown="span">Output :</summary>
+*	
+</details>
+</br>
+
 ----
 
 # [Tugas Praktek](https://academy.dqlab.id/main/livecode/161/304/1376)
@@ -434,6 +475,12 @@ class DokumenterTeknis(TenagaLepas):
     def tambahan_proyek(self, jumlah_tambahan): 
         return
 ```
+<details>
+<summary markdown="span">Output :</summary>
+*	
+</details>
+</br>
+
 ----
 
 # [Tugas Praktek](https://academy.dqlab.id/main/livecode/161/304/1378)
@@ -472,6 +519,12 @@ print(karyawan_baru3.nama)
 print(karyawan_baru3.usia)
 print(karyawan_baru3.total_pendapatan())
 ```
+<details>
+<summary markdown="span">Output :</summary>
+*	
+</details>
+</br>
+
 ----
 
 # [Studi Kasus dari Senja](https://academy.dqlab.id/main/livecode/161/305/1380)
@@ -566,3 +619,12 @@ perusahaan.aktifkan_karyawan(efi)
 perusahaan.aktifkan_karyawan(febi)
 #Cetak keseluruhan total pengeluaran perusahaan
 print(perusahaan.total_pengeluaran())
+```
+
+<details>
+<summary markdown="span">Output :</summary>
+*	
+</details>
+</br>
+
+----
