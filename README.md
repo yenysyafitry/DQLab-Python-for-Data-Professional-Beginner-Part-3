@@ -8,7 +8,7 @@ Pemrograman Berbasis Objek (Object Oriented Programming - OOP) merupakan salah s
 <a class="link-gray-dark"  href="#url">link-gray-dark</a></br>
 <a class="text-gray-dark no-underline" href="#url"></br>
 <a class="muted-link" href="#url">muted-link</a></br>
- ```
+ ```json
 {
   "firstName": "John",
   "lastName": "Smith",
