@@ -27,9 +27,9 @@ Agar dapat membuat class Karyawan dengan baik, pertama, aku akan mempelajari car
 
 # [Class dan Objek dalam Python - Part 3](https://academy.dqlab.id/main/livecode/161/301/1354)
 
-
+<table><tr>
 ```diff
-#Definisikan class Karyawan 
+# Definisikan class Karyawan 
 class Karyawan:
   nama_perusahaan = 'ABC'
 # Inisiasi object yang dinyatakan dalam variabel aksara dan senja
@@ -43,7 +43,7 @@ aksara.__class__.nama_perusahaan = 'DEF'
 # Cetak nama_perusahaan objek aksara dan senja
 print(aksara.__class__.nama_perusahaan)
 print(senja.__class__.nama_perusahaan)
-```
+	```</tr></table>
 
 # # [Class dan Objek dalam Python - Part 4](https://academy.dqlab.id/main/livecode/161/301/1355)
 
