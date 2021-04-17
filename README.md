@@ -512,6 +512,7 @@ class DokumenterTeknis(TenagaLepas):
 ### Tugas Praktek
 
 | Nama | Usia | Pendapatan |
+| :--- |:---: |      :---: |   
 | Budi | ? | ? |
 | Didi | 25 | ? |  
 | Hadi | ? | 8000000 | 
@@ -577,7 +578,7 @@ Hadi</br>
 Di perusahaan ini, seorang analis data yang masuk umumnya berusia 21, memiliki pendapatan senilai 6.500.000 dan insentif lembur senilai 100.000. Kemudian, untuk seorang ilmuwan data yang masuk umumnya berusia 25, memiliki pendapatan senilai 12.000.000, dan insentif lembur senilai 150.000. Di sisi lain, untuk tenaga lepas, hanya terdapat pendapatan umum senilai 4000000 untuk pembersih data dan 2500000 untuk dokumenter teknis. 
 
 | Nama | Usia | Pekerjaan        |Pendapatan|
-| :--- |:---: |       :---: 	 |   :---:  |
+| :--- |:---: |       :--- 	 |   :---:  |
 | Ani  | 25   | Pembersih Data   |    -     |
 | Budi | 18   | Dokumenter Teknis|    -     |
 | Cici | -    | Ilmuwan Data     |    -     |
