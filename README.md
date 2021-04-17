@@ -18,8 +18,7 @@ Dalam bahasa pemrograman Python, terdapat 3 konsep utama OO yaitu.
 <li>Inheritance: Menurunkan serangkaian fungsi-fungsi yang dimiliki oleh sebuah objek ke sebuah objek baru tanpa mengubah makna dari objek acuan yang digunakan.</li>
 <li>Polymorphism: Konsep untuk menggunakan fungsi-fungsi dengan nama/ tujuan yang sama dengan cara yang berbeda.</li></ol>
 
-Agar dapat membuat class Karyawan dengan baik, pertama, aku akan mempelajari cara merepresentasikan atribut/properti dalam sebuah class.  Dalam sebuah class, aku dapat mendefinisikan dua jenis atribut yaitu.
-<ol align="justify"><li>Class Attribute adalah properti/atribut yang bernilai sama untuk oleh seluruh objek dari sebuah</li>
+Agar dapat membuat class Karyawan dengan baik, pertama, aku akan mempelajari cara merepresentasikan atribut/properti dalam sebuah class.  Dalam sebuah class, aku dapat mendefinisikan dua jenis atribut yaitu :<ol align="justify"><li>Class Attribute adalah properti/atribut yang bernilai sama untuk oleh seluruh objek dari sebuah</li>
 <li>Instance Attribute adalah properti/atribut yang nilainya berbeda-beda untuk setiap objek dari sebuah class.</li></ol>
  
 
