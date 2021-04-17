@@ -32,7 +32,7 @@ Agar dapat membuat class Karyawan dengan baik, pertama, aku akan mempelajari car
 
 
 ----
-# [Class dan Objek dalam Python - Part 3](https://academy.dqlab.id/main/livecode/161/301/1354)
+# Class dan Objek dalam Python - Part 3  https://academy.dqlab.id/main/livecode/161/301/1354
 
 ```plantuml
 #Definisikan Class Karyawan 	
