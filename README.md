@@ -82,6 +82,10 @@ print(aksara.nama + ', Usia: ' + str(aksara.usia) + ', Pendapatan ' + str(aksara
 #Cetak objek bernama senja
 print(senja.nama + ', Usia: ' + str(senja.usia) + ', Pendapatan ' + str(senja.pendapatan))
 ```
+<details>
+<summary markdown="span">Output :</summary>
+*	
+</details>
 ----
 
 # [Behavior pada Class](https://academy.dqlab.id/main/livecode/161/301/1358)
