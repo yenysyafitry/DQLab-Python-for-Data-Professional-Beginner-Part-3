@@ -40,10 +40,10 @@ Agar dapat membuat class Karyawan dengan baik, pertama, aku akan mempelajari car
 
 
 ```plantuml
-# Definisikan class Karyawan 	
+#Definisikan Class Karyawan 	
 class Karyawan:		
   nama_perusahaan = 'ABC'
-# Inisiasi object yang dinyatakan dalam variabel aksara dan senja
+#Inisiasi object yang dinyatakan dalam variabel aksara dan senja
 aksara = Karyawan()
 senja = Karyawan()
 #Cetak nama perusahaan melalui penggunaan keyword __class__
