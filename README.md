@@ -1,10 +1,4 @@
-
-
-
-### GitLab Orange Heading
-{: .gitlab-orange}
-https://github.com/yenysyafitry/DQLab-Python-for-Data-Professional-Beginner-Part-3/blob/main/Python%20for%20Data%20Professional%20Beginner%20-%20Part%203.ipynb </br></br>
-
+#### Materi Python for Data Professional Beginner Part 3
 
 <b>Apa itu Object Oriented Programming?</b></br>
 Pemrograman Berbasis Objek (Object Oriented Programming - OOP) merupakan salah satu paradigma pemrograman yang cukup populer di antara paradigma-paradigma lainnya.
