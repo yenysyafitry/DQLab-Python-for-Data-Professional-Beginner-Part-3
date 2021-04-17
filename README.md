@@ -39,8 +39,8 @@ Agar dapat membuat class Karyawan dengan baik, pertama, aku akan mempelajari car
 # [Class dan Objek dalam Python - Part 3](https://academy.dqlab.id/main/livecode/161/301/1354)
 
 
-Column 1 | Column 2 | Column 3
---- | --- | ---
+Column 1 |
+--- | 
 **Things** | _Don't_ | [Need](http://makeuseof.com)
 To | *__Look__* | `Pretty`
 
