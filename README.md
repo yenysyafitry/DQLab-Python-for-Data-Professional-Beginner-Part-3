@@ -1,6 +1,6 @@
 #### Materi Python for Data Professional Beginner Part 3
 
-```bash
+```sh
 pip install foobar
 ```
 
