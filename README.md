@@ -120,7 +120,7 @@ print('Pendapatan Total Senja: ' +str(senja.total_pendapatan()))
 
 
 ### Tugas Praktek 
-----
+
 ```plantuml
 #Definisikan class Karyawan
 class Karyawan:
