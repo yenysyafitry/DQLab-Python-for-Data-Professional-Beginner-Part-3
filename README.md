@@ -9,20 +9,10 @@ Pemrograman Berbasis Objek (Object Oriented Programming - OOP) merupakan salah s
 <a class="text-gray-dark no-underline" href="#url"></br>
 <a class="muted-link" href="#url">muted-link</a></br>
  ```json
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": Seorang karyawan dapat memiliki serangkaian properti seperti nama, usia, keahlian, dll. Kemudian, seorang karyawan juga dapat memiliki fungsi-fungsi seperti hadir ke kantor, absen, lembur, tugas dinas, dl
-}
+23
  
 ```
- <dl>
-  <dt>First Term</dt>
-  <dd>This is the definition of the first term.</dd>
-  <dt>Second Term</dt>
-  <dd>This is one definition of the second term. </dd>
-  <dd>This is another definition of the second term.</dd>
-</dl>
+
  
  
  
