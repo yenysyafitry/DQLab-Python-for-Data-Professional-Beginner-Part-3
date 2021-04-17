@@ -511,11 +511,10 @@ class DokumenterTeknis(TenagaLepas):
 
 ### Tugas Praktek
 
- Kanan     Kiri     Tengah     Default
--------     ------ ----------   -------
-     12     12        12            12
-    123     123       123          123
-      1     1          1             1
+ Nama     Usia     Pendapatan     
+ Budi      ?              ?           
+ Didi     25              ?          
+ Hadi      ?        8000000            
 
 | Nama  | Usia | Pendapatan|
  ----     ----     ----
