@@ -76,7 +76,7 @@ print(senja.nama + ', Usia: ' + str(senja.usia) + ', Pendapatan ' + str(senja.pe
 ```
 <details>
 <summary markdown="span">Output :</summary>
-Aksara, Usia: 25, Pendapatan 8500000
+Aksara, Usia: 25, Pendapatan 8500000</br>
 Senja, Usia: 28, Pendapatan 12500000	
 </details>
 </br>
@@ -118,7 +118,7 @@ print('Pendapatan Total Senja: ' +str(senja.total_pendapatan()))
 ```
 <details>
 <summary markdown="span">Output :</summary>
-Pendapatan Total Aksara: 8750000
+Pendapatan Total Aksara: 8750000</br>
 Pendapatan Total Senja: 15000000	
 </details>
 </br>
@@ -215,13 +215,13 @@ print(aksara.nama)
 ```
 <details>
 <summary markdown="span">Output :</summary>
-AttributeError                            Traceback (most recent call last)
-<ipython-input-6-fcf12fb9db71> in <module>
-     17 aksara = Karyawan('Aksara', 25, 8500000)
-     18 # Akses ke attribute class Karyawan
----> 19 print(aksara.__class__.Karyawan)
-     20 # Akan menimbulkan error ketika di run
-     21 print(aksara.nama)
+AttributeError                            Traceback (most recent call last)</br>
+<ipython-input-6-fcf12fb9db71> in <module></br>
+     17 aksara = Karyawan('Aksara', 25, 8500000)</br>
+     18 # Akses ke attribute class Karyawan</br>
+---> 19 print(aksara.__class__.Karyawan)</br>
+     20 # Akan menimbulkan error ketika di run</br>
+     21 print(aksara.nama)</br>
 
 AttributeError: type object 'Karyawan' has no attribute 'Karyawan'	
 </details>
@@ -272,7 +272,8 @@ print(senja.total_pendapatan())
 ```
 <details>
 <summary markdown="span">Output :</summary>
-*	
+8750000</br>
+15000000	
 </details>
 </br>
 <a href="https://academy.dqlab.id/main/livecode/161/301/1365">Link materi : academy.dqlab.id/main/livecode/161/301/1365</a>
@@ -322,10 +323,12 @@ print(senja.total_pendapatan())
 ```
 <details>
 <summary markdown="span">Output :</summary>
-*	
+8750000</br>
+13500000	
 </details>
 </br>
 <a href="https://academy.dqlab.id/main/livecode/161/301/1370">Link materi : academy.dqlab.id/main/livecode/161/301/1370</a>
+
 ----
 
 ### Polymorphism pada Python - Part 1
@@ -366,10 +369,11 @@ print(aksara.total_pendapatan())
 ```
 <details>
 <summary markdown="span">Output :</summary>
-*	
+9350000	
 </details>
 </br>
 <a href="https://academy.dqlab.id/main/livecode/161/304/1373">Link materi : academy.dqlab.id/main/livecode/161/304/1373</a>.
+
 ----
 
 ### Polymorphism pada Python - Part 2
@@ -407,12 +411,10 @@ aksara = AnalisData('Aksara', 25, 8500000)
 aksara.lembur()
 print(aksara.total_pendapatan())
 ```
-<details>
-<summary markdown="span">Output :</summary>
-*	
-</details>
+
 </br>
 <a href="https://academy.dqlab.id/main/livecode/161/304/1374">Link materi : academy.dqlab.id/main/livecode/161/304/1374</a>
+
 ----
 
 ### Tugas Praktek
@@ -440,10 +442,7 @@ class TenagaLepas(Karyawan):
     def tambahan_proyek(self, nilai_proyek):
         self.pendapatan_tambahan += nilai_proyek * 0.01
 ```
-<details>
-<summary markdown="span">Output :</summary>
-*	
-</details>
+
 </br>
 <a href="https://academy.dqlab.id/main/livecode/161/304/1375">Link materi : academy.dqlab.id/main/livecode/161/304/1375</a>
 ----
@@ -491,12 +490,9 @@ class DokumenterTeknis(TenagaLepas):
     def tambahan_proyek(self, jumlah_tambahan): 
         return
 ```
-<details>
-<summary markdown="span">Output :</summary>
-*	
-</details>
 </br>
 <a href="https://academy.dqlab.id/main/livecode/161/304/1376">Link materi : academy.dqlab.id/main/livecode/161/304/1376</a>.
+
 ----
 
 ### Tugas Praktek
@@ -537,10 +533,19 @@ print(karyawan_baru3.total_pendapatan())
 ```
 <details>
 <summary markdown="span">Output :</summary>
-*	
+Budi</br>
+21</br>
+5000000</br>
+Didi</br>
+25</br>
+5000000</br>
+Hadi</br>
+21</br>
+8000000	
 </details>
 </br>
 <a href="https://academy.dqlab.id/main/livecode/161/304/1378">Link materi : academy.dqlab.id/main/livecode/161/304/1378</a>
+
 ----
 
 ### Studi Kasus dari Senja
@@ -639,7 +644,7 @@ print(perusahaan.total_pengeluaran())
 
 <details>
 <summary markdown="span">Output :</summary>
-*	
+57000000	
 </details>
 </br>
 <a href="https://academy.dqlab.id/main/livecode/161/305/1380">Link materi : academy.dqlab.id/main/livecode/161/305/1380</a>
