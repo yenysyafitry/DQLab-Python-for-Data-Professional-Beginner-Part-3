@@ -13,10 +13,6 @@ merepresentasikan seorang karyawan
  
 ```
 
-| Column 1       | Column 2     | Column 3     |
-| :------------- | :----------: | -----------: |
-|  Cell Contents | More Stuff   | And Again    |
-| You Can Also   | Put Pipes In | Like this \| | 
  
  
 Pada paradigma OOP, struktur dari sebuah program dikemas ke dalam sebuah objek yang memiliki serangkaian properti (properties) dan fungsi (behaviours). Sebagai contoh, aku dapat merepresentasikan seorang karyawan ke dalam sebuah program melalui konsep OOP.
@@ -43,7 +39,7 @@ Agar dapat membuat class Karyawan dengan baik, pertama, aku akan mempelajari car
 # [Class dan Objek dalam Python - Part 3](https://academy.dqlab.id/main/livecode/161/301/1354)
 
 
-```diff
+|```diff
 # Definisikan class Karyawan 
 class Karyawan:
   nama_perusahaan = 'ABC'
@@ -57,7 +53,7 @@ print(aksara.__class__.nama_perusahaan)
 aksara.__class__.nama_perusahaan = 'DEF'
 # Cetak nama_perusahaan objek aksara dan senja
 print(aksara.__class__.nama_perusahaan)
-print(senja.__class__.nama_perusahaan)
+print(senja.__class__.nama_perusahaan)|
 ```
 
 # # [Class dan Objek dalam Python - Part 4](https://academy.dqlab.id/main/livecode/161/301/1355)
