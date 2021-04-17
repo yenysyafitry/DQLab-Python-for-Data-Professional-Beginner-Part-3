@@ -70,8 +70,8 @@ print(aksara.__class__.nama_perusahaan)
 print(senja.__class__.nama_perusahaan)
 ```
 
-TO DO.
-{: .alert .alert-success}
+TO DO.{: .alert .alert-success}
+{::options parse_block_html="true" /}
 
 <div class="panel panel-success">
 **Do's**
