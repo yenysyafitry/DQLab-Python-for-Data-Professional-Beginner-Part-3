@@ -49,12 +49,11 @@ aksara.__class__.nama_perusahaan = 'DEF'
 print(aksara.__class__.nama_perusahaan)
 print(senja.__class__.nama_perusahaan)
 ```
+----
 <details>
 <summary markdown="span">Output :</summary>
 *	
 </details>
-----
-
 
 
 # [Class dan Objek dalam Python - Part 4](https://academy.dqlab.id/main/livecode/161/301/1355)
