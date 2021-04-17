@@ -54,8 +54,7 @@ print(senja.__class__.nama_perusahaan)
 <summary markdown="span">Output :</summary>
 *	
 </details>
-
-
+</br>
 
 ----
 
