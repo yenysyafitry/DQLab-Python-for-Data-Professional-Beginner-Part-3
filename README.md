@@ -8,25 +8,13 @@ Pemrograman Berbasis Objek (Object Oriented Programming - OOP) merupakan salah s
 <a class="link-gray-dark"  href="#url">link-gray-dark</a></br>
 <a class="text-gray-dark no-underline" href="#url"></br>
 <a class="muted-link" href="#url">muted-link</a></br>
- < informaltable 
-frame = " all " 
-rowep = " 1 "  colsep = " 1 "
->
-< tgroup  cols = " 2 " >
-< colspec  colname = " col_1 "  colwidth = " 50 * " />
-< colspec  colname = " col_2 "  colwidth = " 50 * " />
-< tbody >
-< baris >
-< entry  align = " left "  valign = " top " > < simpara > a </ simpara > </ entry >
-< entry  align = " left "  valign = " top " > < simpara > b </ simpara > </ entry >
-</ baris >
-< baris >
-< entry  align = " left "  valign = " top " > <? dbfo bgcolor = " red " ?> < simpara > d </ simpara > </ entry >
-< entry  align = " left "  valign = " top " > < simpara > e </ simpara > </ entry >
-</ baris >
-</ tbody >
-</ tgroup >
-</ informaltable >
+ ```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
  
  
  
