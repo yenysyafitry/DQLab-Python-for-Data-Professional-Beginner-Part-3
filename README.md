@@ -511,9 +511,10 @@ class DokumenterTeknis(TenagaLepas):
 
 ### Tugas Praktek
 
-| Attempt | #1 | #2 |
-| :---: | :---: | :---: |
-| Seconds | 301 | 283 |           
+| Nama | Usia | Pendapatan |
+| Budi | ? | ? |
+| Didi | 25 | ? |  
+| Hadi | ? | 8000000 | 
 
 | Nama  | Usia | Pendapatan|
 | Budi  |  ?   |   ? 	   |
