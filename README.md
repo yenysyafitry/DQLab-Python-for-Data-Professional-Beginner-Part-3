@@ -13,7 +13,10 @@ merepresentasikan seorang karyawan
  
 ```
 
- 
+| Column 1       | Column 2     | Column 3     |
+| :------------- | :----------: | -----------: |
+|  Cell Contents | More Stuff   | And Again    |
+| You Can Also   | Put Pipes In | Like this \| | 
  
  
 Pada paradigma OOP, struktur dari sebuah program dikemas ke dalam sebuah objek yang memiliki serangkaian properti (properties) dan fungsi (behaviours). Sebagai contoh, aku dapat merepresentasikan seorang karyawan ke dalam sebuah program melalui konsep OOP.
