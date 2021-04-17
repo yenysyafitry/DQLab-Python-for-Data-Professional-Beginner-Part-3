@@ -56,6 +56,7 @@ print(senja.__class__.nama_perusahaan)
 </details>
 
 
+
 ----
 
 
