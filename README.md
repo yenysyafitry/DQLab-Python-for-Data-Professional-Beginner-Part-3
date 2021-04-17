@@ -13,6 +13,7 @@ Pemrograman Berbasis Objek (Object Oriented Programming - OOP) merupakan salah s
   "firstName": "John",
   "lastName": "Smith",
   "age": 25
+  Seorang karyawan dapat memiliki serangkaian properti seperti nama, usia, keahlian, dll. Kemudian, seorang karyawan juga dapat memiliki fungsi-fungsi seperti hadir ke kantor, absen, lembur, tugas dinas, dl
 }
 ```
  
