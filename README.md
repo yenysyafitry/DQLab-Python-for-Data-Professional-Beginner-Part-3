@@ -93,7 +93,7 @@ print(senja.nama + ', Usia: ' + str(senja.usia) + ', Pendapatan ' + str(senja.pe
 ```
 ----
 
-# # [Behavior pada Class](https://academy.dqlab.id/main/livecode/161/301/1358)
+# [Behavior pada Class](https://academy.dqlab.id/main/livecode/161/301/1358)
 
 # In[3]:
 
@@ -127,11 +127,10 @@ print('Pendapatan Total Senja: ' +str(senja.total_pendapatan()))
 ```
 ----
 
-# # [Tugas Praktek](https://academy.dqlab.id/main/livecode/161/301/1359)
 
-# In[4]:
-
-
+# [Tugas Praktek](https://academy.dqlab.id/main/livecode/161/301/1359)
+----
+```plantuml
 # Definisikan class Karyawan
 class Karyawan:
     def __init__(self, nama, usia, pendapatan, insentif_lembur): 
@@ -146,7 +145,6 @@ class Karyawan:
         self.pendapatan_tambahan += jumlah_tambahan 
     def total_pendapatan(self):
         return self.pendapatan + self.pendapatan_tambahan
-
 # Definisikan class Perusahaan
 class Perusahaan:
     def __init__(self, nama, alamat, nomor_telepon): 
@@ -164,13 +162,13 @@ class Perusahaan:
                 break
         if karyawan_nonaktif is not None: 
             self.list_karyawan.remove(karyawan_nonaktif)
+```
+----
 
+#  [Tugas Praktek](https://academy.dqlab.id/main/livecode/161/301/1360)
 
-# # [Tugas Praktek](https://academy.dqlab.id/main/livecode/161/301/1360)
-
-# In[5]:
-
-
+----
+```plantuml
 # Definisikan perusahaan
 perusahaan = Perusahaan('ABC', 'Jl. Jendral Sudirman, Blok 11', '(021) 95205XX')
 # Definisikan nama-nama karyawan
@@ -181,7 +179,8 @@ karyawan_3 = Karyawan('Cici', 30, 15000000, 200000)
 perusahaan.aktifkan_karyawan(karyawan_1)
 perusahaan.aktifkan_karyawan(karyawan_2)
 perusahaan.aktifkan_karyawan(karyawan_3)
-
+```
+----
 
 # # [Encapsulation pada Python - Part 2](https://academy.dqlab.id/main/livecode/161/302/1362)
 
