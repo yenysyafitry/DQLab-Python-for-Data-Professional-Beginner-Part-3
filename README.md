@@ -4,11 +4,13 @@ https://github.com/yenysyafitry/DQLab-Python-for-Data-Professional-Beginner-Part
 <b>Apa itu Object Oriented Programming?</b></br>
 Pemrograman Berbasis Objek (Object Oriented Programming - OOP) merupakan salah satu paradigma pemrograman yang cukup populer di antara paradigma-paradigma lainnya.
 </br>
-<a class="link-gray-dark"  href="">link-gray-dark</a></br>
+<a class="link-gray" href="#url">link-gray</a></br>
+<a class="link-gray-dark"  href="#url">link-gray-dark</a></br>
 <a class="text-gray-dark no-underline" href="#url"></br>
-  A link with only part of it is <span class="link-hover-blue">blue on hover</span>.
-</a>
-<a class="muted-link" href="#url">muted-link</a>
+<a class="muted-link" href="#url">muted-link</a></br>
+ 
+ 
+ 
 Pada paradigma OOP, struktur dari sebuah program dikemas ke dalam sebuah objek yang memiliki serangkaian properti (properties) dan fungsi (behaviours). Sebagai contoh, aku dapat merepresentasikan seorang karyawan ke dalam sebuah program melalui konsep OOP.
 </br>
 
