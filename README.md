@@ -75,7 +75,8 @@ print(senja.nama + ', Usia: ' + str(senja.usia) + ', Pendapatan ' + str(senja.pe
 *	
 </details>
 </br>
-<a href="https://academy.dqlab.id/main/livecode/161/301/1355">Link materi : academy.dqlab.id/main/livecode/161/301/1355</a>.
+<a href="https://academy.dqlab.id/main/livecode/161/301/1355">Link materi : academy.dqlab.id/main/livecode/161/301/1355</a>
+
 ----
 
 
@@ -114,7 +115,8 @@ print('Pendapatan Total Senja: ' +str(senja.total_pendapatan()))
 *	
 </details>
 </br>
-<a href="https://academy.dqlab.id/main/livecode/161/301/1358">Link materi : academy.dqlab.id/main/livecode/161/301/1358</a>.
+<a href="https://academy.dqlab.id/main/livecode/161/301/1358">Link materi : academy.dqlab.id/main/livecode/161/301/1358</a>
+
 ----
 
 
@@ -158,7 +160,8 @@ class Perusahaan:
 *	
 </details>
 </br>
-<a href="https://academy.dqlab.id/main/livecode/161/301/1359">Link materi : academy.dqlab.id/main/livecode/161/301/1359</a>.
+<a href="https://academy.dqlab.id/main/livecode/161/301/1359">Link materi : academy.dqlab.id/main/livecode/161/301/1359</a>
+
 ----
 
 ### Tugas Praktek
@@ -181,7 +184,8 @@ perusahaan.aktifkan_karyawan(karyawan_3)
 *	
 </details>
 </br>
-<a href="https://academy.dqlab.id/main/livecode/161/301/1360">Link materi : academy.dqlab.id/main/livecode/161/301/1360</a>.
+<a href="https://academy.dqlab.id/main/livecode/161/301/1360">Link materi : academy.dqlab.id/main/livecode/161/301/1360</a>
+
 ----
 
 ### Encapsulation pada Python - Part 2
@@ -214,7 +218,8 @@ print(aksara.nama)
 *	
 </details>
 </br>
-<a href="https://academy.dqlab.id/main/livecode/161/301/1362">Link materi : academy.dqlab.id/main/livecode/161/301/1362</a>.
+<a href="https://academy.dqlab.id/main/livecode/161/301/1362">Link materi : academy.dqlab.id/main/livecode/161/301/1362</a>
+
 ----
 
 ### Inheritance pada Python – Part 1
@@ -262,7 +267,8 @@ print(senja.total_pendapatan())
 *	
 </details>
 </br>
-<a href="https://academy.dqlab.id/main/livecode/161/301/1365">Link materi : academy.dqlab.id/main/livecode/161/301/1365</a>.
+<a href="https://academy.dqlab.id/main/livecode/161/301/1365">Link materi : academy.dqlab.id/main/livecode/161/301/1365</a>
+
 ----
 
 ### Inheritance pada Python – Part 2
