@@ -1,10 +1,7 @@
 #### Materi Python for Data Professional Beginner Part 3
 
-```sh
-pip install foobar
-```
 
-<b>Apa itu Object Oriented Programming?</b></br>
+<p align="justify"><b>Apa itu Object Oriented Programming?</b></br>
 Pemrograman Berbasis Objek (Object Oriented Programming - OOP) merupakan salah satu paradigma pemrograman yang cukup populer di antara paradigma-paradigma lainnya.
 </br>
 
@@ -16,7 +13,7 @@ Seorang karyawan dapat memiliki serangkaian properti seperti nama, usia, keahlia
 <b>Konsep dalam Object Oriented Programming</b></br>
 Sebagai salah satu bahasa pemrograman yang bersifat multi-purposive, Python juga mendukung paradigma Object Oriented (OO).</br>
 
-Konsep OO pada Python memiliki tujuan untuk menciptakan potongan-potongan kode yang bersifat reusable dan tidak redundan. Konsep ini dikenal dengan istilah konsep DRY - Don’t Repeat Yourself (berlawanan dengan konsep WET - Write Everything Twice).
+Konsep OO pada Python memiliki tujuan untuk menciptakan potongan-potongan kode yang bersifat reusable dan tidak redundan. Konsep ini dikenal dengan istilah konsep DRY - Don’t Repeat Yourself (berlawanan dengan konsep WET - Write Everything Twice).</p>
 </br>
 Dalam bahasa pemrograman Python, terdapat 3 konsep utama OO yaitu.
 <ol>
