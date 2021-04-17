@@ -27,7 +27,7 @@ Agar dapat membuat class Karyawan dengan baik, pertama, aku akan mempelajari car
 
 
 ----
-# Class dan Objek dalam Python - Part 3  https://academy.dqlab.id/main/livecode/161/301/1354
+### Class dan Objek dalam Python - Part 3  https://academy.dqlab.id/main/livecode/161/301/1354
 
 ```plantuml
 #Definisikan Class Karyawan 	
@@ -55,7 +55,7 @@ print(senja.__class__.nama_perusahaan)
 ----
 
 
-# [Class dan Objek dalam Python - Part 4](https://academy.dqlab.id/main/livecode/161/301/1355)
+### Class dan Objek dalam Python - Part 4 (https://academy.dqlab.id/main/livecode/161/301/1355)
 
 
 
@@ -84,7 +84,7 @@ print(senja.nama + ', Usia: ' + str(senja.usia) + ', Pendapatan ' + str(senja.pe
 ----
 
 
-# [Behavior pada Class](https://academy.dqlab.id/main/livecode/161/301/1358)
+### Behavior pada Class (https://academy.dqlab.id/main/livecode/161/301/1358)
 
 
 ----
@@ -124,7 +124,7 @@ print('Pendapatan Total Senja: ' +str(senja.total_pendapatan()))
 ----
 
 
-# [Tugas Praktek](https://academy.dqlab.id/main/livecode/161/301/1359)
+### Tugas Praktek (https://academy.dqlab.id/main/livecode/161/301/1359)
 ----
 ```plantuml
 #Definisikan class Karyawan
@@ -167,7 +167,7 @@ class Perusahaan:
 
 ----
 
-# [Tugas Praktek](https://academy.dqlab.id/main/livecode/161/301/1360)
+### Tugas Praktek](https://academy.dqlab.id/main/livecode/161/301/1360)
 
 ----
 ```plantuml
@@ -184,7 +184,7 @@ perusahaan.aktifkan_karyawan(karyawan_3)
 ```
 ----
 
-# [Encapsulation pada Python - Part 2](https://academy.dqlab.id/main/livecode/161/302/1362)
+### Encapsulation pada Python - Part 2](https://academy.dqlab.id/main/livecode/161/302/1362)
 ----
 ```plantuml
 #Definisikan class Karyawan
@@ -217,7 +217,7 @@ print(aksara.nama)
 
 ----
 
-# [Inheritance pada Python – Part 1](https://academy.dqlab.id/main/livecode/161/302/1365)
+### Inheritance pada Python – Part 1](https://academy.dqlab.id/main/livecode/161/302/1365)
 
 ----
 ```plantuml
@@ -259,7 +259,7 @@ print(senja.total_pendapatan())
 ```
 ----
 
-# [Inheritance pada Python – Part 2](https://academy.dqlab.id/main/livecode/161/302/1370)
+### Inheritance pada Python – Part 2](https://academy.dqlab.id/main/livecode/161/302/1370)
 
 ----
 ```plantuml
@@ -308,7 +308,7 @@ print(senja.total_pendapatan())
 
 ----
 
-# [Polymorphism pada Python - Part 1](https://academy.dqlab.id/main/livecode/161/304/1373)
+### Polymorphism pada Python - Part 1](https://academy.dqlab.id/main/livecode/161/304/1373)
 
 ----
 ```plantuml
@@ -352,7 +352,7 @@ print(aksara.total_pendapatan())
 
 ----
 
-# [Polymorphism pada Python - Part 2](https://academy.dqlab.id/main/livecode/161/304/1374)
+### Polymorphism pada Python - Part 2](https://academy.dqlab.id/main/livecode/161/304/1374)
 ----
 ```plantuml
 #Definisikan class Karyawan (sebagai base class)
@@ -395,7 +395,7 @@ print(aksara.total_pendapatan())
 
 ----
 
-# [Tugas Praktek](https://academy.dqlab.id/main/livecode/161/304/1375)
+### Tugas Praktek](https://academy.dqlab.id/main/livecode/161/304/1375)
 ----
 ```plantuml
 #Definisikan class Karyawan
@@ -428,7 +428,7 @@ class TenagaLepas(Karyawan):
 
 ----
 
-# [Tugas Praktek](https://academy.dqlab.id/main/livecode/161/304/1376)
+### Tugas Praktek](https://academy.dqlab.id/main/livecode/161/304/1376)
 ----
 ```plantuml
 #Definisikan class Karyawan sebagai parent class
@@ -479,7 +479,7 @@ class DokumenterTeknis(TenagaLepas):
 
 ----
 
-# [Tugas Praktek](https://academy.dqlab.id/main/livecode/161/304/1378)
+### Tugas Praktek](https://academy.dqlab.id/main/livecode/161/304/1378)
 ----
 ```plantuml
 class Karyawan: 
@@ -523,7 +523,7 @@ print(karyawan_baru3.total_pendapatan())
 
 ----
 
-# [Studi Kasus dari Senja](https://academy.dqlab.id/main/livecode/161/305/1380)
+### Studi Kasus dari Senja](https://academy.dqlab.id/main/livecode/161/305/1380)
 ----
 ```plantuml
 #Definisikan class Karyawan sebagai parent class
