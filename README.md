@@ -1,20 +1,17 @@
-```plantuml
-!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v2.1.0
-skinparam defaultTextAlignment center
-!include ICONURL/common.puml
-!include ICONURL/font-awesome-5/gitlab.puml
-!include ICONURL/font-awesome-5/java.puml
-!include ICONURL/font-awesome-5/rocket.puml
-!include ICONURL/font-awesome/newspaper_o.puml
-FA_NEWSPAPER_O(news,good news!,node) #White {
-FA5_GITLAB(gitlab,GitLab.com,node) #White
-FA5_JAVA(java,PlantUML,node) #White
-FA5_ROCKET(rocket,Integrated,node) #White
-}
-gitlab ..> java
-java ..> rocket
-```
-
+<!-- blank line -->
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+<!-- blank line -->
+<!-- blank line -->
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
+    <source src="path/to/video.mp4" type="video/mp4">
+    <source src="path/to/video.ogg" type="video/ogg">
+    <source src="path/to/video.webm" type="video/webm">
+  </video>
+</figure>
+<!-- blank line -->
 
 
 
