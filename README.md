@@ -9,7 +9,7 @@ Pada paradigma OOP, struktur dari sebuah program dikemas ke dalam sebuah objek y
 Seorang karyawan dapat memiliki serangkaian properti seperti nama, usia, keahlian, dll. Kemudian, seorang karyawan juga dapat memiliki fungsi-fungsi seperti hadir ke kantor, absen, lembur, tugas dinas, dll.
 </br></br>
 <b>Konsep dalam Object Oriented Programming</b></br>
-Sebagai salah satu bahasa pemrograman yang bersifat multi-purposive, Python juga mendukung paradigma Object Oriented (OO).</br>
+Sebagai salah satu bahasa pemrograman yang bersifat multi-purposive, Python juga mendukung paradigma Object Oriented (OO).
 Konsep OO pada Python memiliki tujuan untuk menciptakan potongan-potongan kode yang bersifat reusable dan tidak redundan. Konsep ini dikenal dengan istilah konsep DRY - Don’t Repeat Yourself (berlawanan dengan konsep WET - Write Everything Twice).</p>
 </br>
 Dalam bahasa pemrograman Python, terdapat 3 konsep utama OO yaitu.
