@@ -26,6 +26,7 @@ Agar dapat membuat class Karyawan dengan baik, pertama, aku akan mempelajari car
 ----
 #### Class dan Objek dalam Python - Part 3  
 
+Berkaitan dengan kedua jenis atribut yang telah aku pelajari, aku menggunakan contoh berikut untuk memperkuat pemahamanky terkait dengan konsep class attribute.
 ```plantuml
 #Definisikan Class Karyawan 	
 class Karyawan:		
@@ -45,7 +46,9 @@ print(senja.__class__.nama_perusahaan)
 
 <details>
 <summary markdown="span">Output :</summary>
-*	
+ABC </br>
+DEF</br>
+DEF	
 </details>
 </br>
 <a href="https://academy.dqlab.id/main/livecode/161/301/1354">Link materi : academy.dqlab.id/main/livecode/161/301/1354</a>.
