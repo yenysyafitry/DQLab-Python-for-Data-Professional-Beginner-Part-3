@@ -57,6 +57,7 @@ DEF
 
 
 ### Class dan Objek dalam Python - Part 4 
+Atribut nama, usia dan pendapatan merupakan contoh dari instance variabel. Sebagai tambahan, fungsi __init__() di dalam class Karyawan secara khusus disebut sebagai constructor. Melalui sebuah constructor, aku dapat meng-assign (menginisialisasi) atribut-atribut milik sebuah objek. Pada bahasa pemrograman Python, setiap fungsi (termasuk constructor) akan menerima dirinya sendiri (self) sebagai parameter pertama dari fungsi. Kemudian, aku dapat menambahkan parameter-parameter lain setelah parameter self sesuai dengan kebutuhan. Seperti pada contoh di atas, saat objek dibuat (diinisialisasi), aku dapat melemparkan nama, usia dan pendapatan melalui syntax,Terakhir, aku belajar bahwa objek aksara dan senja diizinkan untuk memiliki nama, usia dan pendapatan yang berbeda. Untuk mengakses instance attribute dalam sebuah class, aku perlu menuliskan sintaks self diikuti dengan tanda titik (.) sebelum nama atribut.
 ```plantuml
 #Definisikan class Karyawan
 class Karyawan:
@@ -75,7 +76,8 @@ print(senja.nama + ', Usia: ' + str(senja.usia) + ', Pendapatan ' + str(senja.pe
 ```
 <details>
 <summary markdown="span">Output :</summary>
-*	
+Aksara, Usia: 25, Pendapatan 8500000
+Senja, Usia: 28, Pendapatan 12500000	
 </details>
 </br>
 <a href="https://academy.dqlab.id/main/livecode/161/301/1355">Link materi : academy.dqlab.id/main/livecode/161/301/1355</a>
@@ -84,7 +86,9 @@ print(senja.nama + ', Usia: ' + str(senja.usia) + ', Pendapatan ' + str(senja.pe
 
 
 ### Behavior pada Class 
+Selain dapat mendefinisikan atribut, dalam sebuah class, aku diperbolehkan untuk mendefinisikan fungsi-fungsi (behavior) dari sebuah class.
 
+Dari potongan kode yang telah aku gunakan, aku dapat menambahkan fungsi-fungsi berkaitan dengan class Karyawan. Sebagai contoh, seorang karyawan tentunya mungkin saja memiliki pendapatan tambahan berdasarkan banyaknya kerja lembur dan jumlah proyek yang telah diselesaikan. Untuk menghitung pendapatan tambahan dari jumlah kerja lembur  dan jumlah proyek yang diselesaikan oleh seorang karyawan dan mengakses pendapatan total dari seorang karyawan, aku dapat menuliskan potongan kode berikut.
 ```plantuml
 #Definisikan class Karyawan berikut dengan attribut dan fungsinya
 class Karyawan:
@@ -114,7 +118,8 @@ print('Pendapatan Total Senja: ' +str(senja.total_pendapatan()))
 ```
 <details>
 <summary markdown="span">Output :</summary>
-*	
+Pendapatan Total Aksara: 8750000
+Pendapatan Total Senja: 15000000	
 </details>
 </br>
 <a href="https://academy.dqlab.id/main/livecode/161/301/1358">Link materi : academy.dqlab.id/main/livecode/161/301/1358</a>
@@ -157,10 +162,6 @@ class Perusahaan:
         if karyawan_nonaktif is not None: 
             self.list_karyawan.remove(karyawan_nonaktif)
 ```
-<details>
-<summary markdown="span">Output :</summary>
-*	
-</details>
 </br>
 <a href="https://academy.dqlab.id/main/livecode/161/301/1359">Link materi : academy.dqlab.id/main/livecode/161/301/1359</a>
 
@@ -181,10 +182,7 @@ perusahaan.aktifkan_karyawan(karyawan_1)
 perusahaan.aktifkan_karyawan(karyawan_2)
 perusahaan.aktifkan_karyawan(karyawan_3)
 ```
-<details>
-<summary markdown="span">Output :</summary>
-*	
-</details>
+
 </br>
 <a href="https://academy.dqlab.id/main/livecode/161/301/1360">Link materi : academy.dqlab.id/main/livecode/161/301/1360</a>
 
@@ -217,7 +215,15 @@ print(aksara.nama)
 ```
 <details>
 <summary markdown="span">Output :</summary>
-*	
+AttributeError                            Traceback (most recent call last)
+<ipython-input-6-fcf12fb9db71> in <module>
+     17 aksara = Karyawan('Aksara', 25, 8500000)
+     18 # Akses ke attribute class Karyawan
+---> 19 print(aksara.__class__.Karyawan)
+     20 # Akan menimbulkan error ketika di run
+     21 print(aksara.nama)
+
+AttributeError: type object 'Karyawan' has no attribute 'Karyawan'	
 </details>
 </br>
 <a href="https://academy.dqlab.id/main/livecode/161/301/1362">Link materi : academy.dqlab.id/main/livecode/161/301/1362</a>
