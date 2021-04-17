@@ -56,7 +56,6 @@ print(senja.__class__.nama_perusahaan)
 </details>
 
 
-
 ----
 
 
@@ -86,6 +85,7 @@ print(senja.nama + ', Usia: ' + str(senja.usia) + ', Pendapatan ' + str(senja.pe
 <summary markdown="span">Output :</summary>
 *	
 </details>
+
 ----
 
 # [Behavior pada Class](https://academy.dqlab.id/main/livecode/161/301/1358)
