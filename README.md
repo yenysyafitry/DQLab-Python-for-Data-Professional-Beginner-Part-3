@@ -48,8 +48,8 @@ print(senja.__class__.nama_perusahaan)
 *	
 </details>
 </br>
-<a href="https://academy.dqlab.id/main/livecode/161/301/1354">This is a link</a>.
-[]
+<a href="https://academy.dqlab.id/main/livecode/161/301/1354">academy.dqlab.id/main/livecode/161/301/1354</a>.
+
 ----
 
 
