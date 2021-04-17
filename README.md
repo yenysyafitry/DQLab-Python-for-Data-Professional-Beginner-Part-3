@@ -52,7 +52,7 @@ print(senja.__class__.nama_perusahaan)
 <details>
 <summary markdown="span">Output :</summary>
 *	
-<details>
+</details>
 ----
 
 
