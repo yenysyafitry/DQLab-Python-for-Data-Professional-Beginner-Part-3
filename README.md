@@ -53,6 +53,13 @@ print(aksara.__class__.nama_perusahaan)
 print(senja.__class__.nama_perusahaan)
 ```
 
+```
+def hello
+   puts "Hello world!"
+end
+```
+
+
 
 ```diff
 # Definisikan class Karyawan 	
