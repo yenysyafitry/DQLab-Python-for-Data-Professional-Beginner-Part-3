@@ -49,6 +49,14 @@ aksara.__class__.nama_perusahaan = 'DEF'
 print(aksara.__class__.nama_perusahaan)
 print(senja.__class__.nama_perusahaan)
 ```
+</br>
+<details>
+<summary markdown="span">Output :</summary>
+*	
+</details>
+
+
+
 ----
 <details>
 <summary markdown="span">Output :</summary>
