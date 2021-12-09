@@ -696,4 +696,4 @@ print(perusahaan.total_pengeluaran())
 
 ![44d4ca105e5f446a87fa0507d4876ac0-0001](https://user-images.githubusercontent.com/81500429/145325785-df971954-c306-4dd9-86c2-640c2825b5a1.jpg)
 </br>
-<p align="center"></br></p>Catatan Kaki &copy; Yenni Syafitri
+<p align="center"></br>Catatan Kaki &copy; Yenni Syafitri</p>
