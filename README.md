@@ -692,6 +692,6 @@ print(perusahaan.total_pengeluaran())
 
 ----
 
-<p align="center"><b>E-Sertifikat </b></br><img src="https://github.com/yenysyafitry/DQLab-Python-for-Data-Professional-Beginner-Part-3/blob/main/e-sertifikat.jpg"></p>
+<p align="center"><b>E-Sertifikat </b></br>![44d4ca105e5f446a87fa0507d4876ac0-0001](https://user-images.githubusercontent.com/81500429/145325785-df971954-c306-4dd9-86c2-640c2825b5a1.jpg)</p>
 
 &copy; Yenni Syafitri
