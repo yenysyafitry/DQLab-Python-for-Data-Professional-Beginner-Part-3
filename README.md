@@ -693,6 +693,7 @@ print(perusahaan.total_pengeluaran())
 ----
 
 <p align="center"><b>E-Sertifikat </b></br></p>
+
 ![44d4ca105e5f446a87fa0507d4876ac0-0001](https://user-images.githubusercontent.com/81500429/145325785-df971954-c306-4dd9-86c2-640c2825b5a1.jpg)
 
 &copy; Yenni Syafitri
